@@ -10,7 +10,7 @@ class Logger{
     }
     async log(message,severity = INFO){
         try{
-            await axios.post(this.endpoint, {
+            return await axios.post(this.endpoint, {
                 timestamp: new Date().getTime(),
                 message,
                 severity
@@ -20,10 +20,10 @@ class Logger{
         }
     }
     warn(message){
-        this.log(message,WARN);
+        return this.log(message,WARN);
     }
     error(message){
-        this.log(message,ERROR);
+        return this.log(message,ERROR);
     }
 }
 
