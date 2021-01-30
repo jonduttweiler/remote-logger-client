@@ -12,7 +12,7 @@ Important: You need to have running an instance of remote-logger-server, otherwi
 
 ```
 const Logger = require("@jduttweiler/remote-logger-client");
-const logger = new Logger("http://localhost:7001/logs");
+const logger = new Logger("https://59d656853f64.ngrok.io");
 
 logger.log("something happened here")
 logger.log("we are going to implement the logging of more complex javascript objects!")
