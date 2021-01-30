@@ -7,7 +7,7 @@ npm install @jduttweiler/remote-logger-client
 ```
 
 ### Usage 
-Important: You need to have running an instance of remote-logger-server, otherwise you can't see the logs.
+Important: You need to have running an instance of [remote-logger-server](https://github.com/jonduttweiler/remote-logger-server), otherwise you can't see the logs.
 
 
 ```
