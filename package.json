@@ -1,0 +1,17 @@
+{
+  "name": "@jduttweiler/remote-logger-client",
+  "version": "1.0.0",
+  "description": "This project allows to send logs over http requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonatan E. Duttweiler",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
